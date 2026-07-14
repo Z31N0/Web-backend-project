@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureIT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+    <script type="module" src="assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🔑 SecureIT</h1>
+        <h2>Password auditor tool</h2>
+    </header>
+
+    <main>
+        <ul id="errors"></ul>
+
+        <form>
+            <fieldset>
+                <legend>Audit details</legend>
+                <label for="email">Officer e-mail</label>
+                <input type="email" id="email" required maxlength="255" placeholder="someone@domain.com">
+                <label for="organization">Organization</label>
+                <select id="organization"></select>
+            </fieldset>
+            <fieldset>
+                <legend>Accounts to check</legend>
+                <label for="accounts">Accounts:</label>
+                <select id="accounts" multiple size="8"></select>
+                <p class="footnote">(Use Ctrl+click or Cmd+click to select multiple accounts)</p>
+            </fieldset>
+            <fieldset>
+                <legend>Ready for audit?</legend>
+                <input type="submit" value="Launch now">
+            </fieldset>
+        </form>
+
+        <p id="feedback"></p>
+    </main>
+
+    <footer>
+        © Howest University of Applied Sciences
+    </footer>
+</body>
+</html>

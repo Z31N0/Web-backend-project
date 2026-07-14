@@ -1,0 +1,79 @@
+body {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #66c5f2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2, legend {
+    font-size: 1.75rem;
+}
+
+fieldset {
+    border: 0.25rem solid #66c5f2;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    background-color: #66c5f2;
+    color: white;
+    padding: 0.25rem;
+}
+
+label, input, select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+input, select {
+    font-family: "Fira Code", "Courier New", Courier, monospace;
+}
+
+input[type="checkbox"], input[type="checkbox"] + label, input[type="submit"] {
+    width: auto;
+    display: inline;
+}
+
+.footnote {
+    font-size: 0.75rem;
+}
+
+#errors {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#errors li {
+    list-style: disc inside;
+    color: #e6007e;
+}
+
+#feedback {
+    color: #66c5f2;
+}
