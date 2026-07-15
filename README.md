@@ -27,4 +27,4 @@ serverside-security-audit/
 
 ## Notes
 
-This was built as coursework, so some pieces (auth flow, data handling, etc.) may be intentionally simplified or, in places, intentionally left insecure to support the audit exercise - check the `serverside-security-audit` folder for details on what was reviewed and found.
+This was built as coursework, so some pieces (auth flow, data handling, etc.) may be intentionally simplified or, in places, intentionally left insecure.
